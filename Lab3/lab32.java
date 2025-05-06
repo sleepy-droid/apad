@@ -14,7 +14,7 @@ class PrintTest extends Thread {
 
     synchronized public static void printThread(int n)
     {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
             System.out.println("Thread " + n + " está trabajando...");
 
             try {
